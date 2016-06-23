@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Above_Test" file="AnnotatedRow_Above_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.SpannedPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Below_Test" file="AnnotatedRow_Below_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.SpannedPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Left_Test" file="AnnotatedRow_Left_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.UnusedPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.AnnotatedRow_Right_Test" file="AnnotatedRow_Right_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Column_AlignByParent_Test" file="Column_AlignByParent_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Column_AlignByRows_Test" file="Column_AlignByRows_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Column_Group_Test" file="Column_Group_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Column_RightAnnotatedRow_Test" file="Column_RightAnnotatedRow_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.UnusedPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.DemoStateMachine_Test" file="DemoStateMachine_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_AutospanOnFlattening_Test" file="Grid_AutospanOnFlattening_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.SpannedPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_Basic_Test" file="Grid_Basic_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.IGridElement" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_Flatten1Level_Test" file="Grid_Flatten1Level_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_Flatten2Levels_Test" file="Grid_Flatten2Levels_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_RowCreateHandlerPriority_Test" file="Grid_RowCreateHandlerPriority_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.DoNothingRowCreateHandler" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.IRowCreateHandler" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_SpanMerge_Test" file="Grid_SpanMerge_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.SpannedPosition" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.UnusedPosition" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.simplegrid.GridPosition" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Grid_Span_Test" file="Grid_Span_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.RequirementsCollection_Test" file="RequirementsCollection_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.SpanningHeaderAlign_Test" file="SpanningHeaderAlign_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Statemachine_Test" file="Statemachine_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.Statemachine_with_Group_Headers_Test" file="Statemachine_with_Group_Headers_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="de.slisson.mps.tables.runtime.gridmodel.TableBlockTest_Test" file="TableBlockTest_Test.java">
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.Grid" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.GridLeaf" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.HeaderReference" />
+    <classNode dependClassName="de.slisson.mps.tables.runtime.gridmodel.StringHeaderReference" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+</dependenciesRoot>
+

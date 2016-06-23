@@ -154,7 +154,7 @@
     <node concept="2G$12M" id="F_DJLMfAYF" role="3989C9">
       <property role="TrG5h" value="dep" />
       <node concept="1E1JtD" id="F_DJLMfB6Y" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="de.htwsaar.peopl.dep.baselang" />
         <property role="3LESm3" value="fe78a547-334d-4401-802e-373d6ba57db0" />
         <property role="2GAjPV" value="false" />
