@@ -3281,7 +3281,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.com.mbeddr.core.base, java.compile.com.mbeddr.core.base#8626086128958648025, java.compile.com.mbeddr.mpsutil.editingGuide.execution, java.compile.com.mbeddr.mpsutil.editingGuide.plugin, java.compile.com.mbeddr.mpsutil.editingGuide.runtime, java.compile.com.mbeddr.mpsutil.editingGuide, java.compile.com.mbeddr.mpsutil.editingGuide#3909459679554885946, java.compile.com.mbeddr.mpsutil.editingGuide.execution.lang, java.compile.com.mbeddr.mpsutil.editingGuide.execution.lang#6071536307005624287, java.compile.com.mbeddr.mpsutil.editor.querylist.runtime, java.compile.com.mbeddr.mpsutil.editor.querylist.sandbox, java.compile.com.mbeddr.mpsutil.editor.utils, java.compile.de.itemis.mps.editor.bool.runtime, java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.editor.layout.runtime, java.compile.de.slisson.mps.conditionalEditor.runtime, java.compile.de.slisson.mps.editor.celllayout, java.compile.de.slisson.mps.editor.multiline.runtime, java.compile.com.mbeddr.mpsutil.editor.querylist, java.compile.com.mbeddr.mpsutil.editor.querylist#6202678563380233173, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang#6202678563380233177, java.compile.de.itemis.mps.editor.bool, java.compile.de.itemis.mps.editor.bool#4900677560559654859, java.compile.de.itemis.mps.editor.celllayout, java.compile.de.itemis.mps.editor.celllayout#2728748097294103221, java.compile.de.itemis.mps.editor.celllayout.styles, java.compile.de.itemis.mps.editor.celllayout.styles#861697192441877541, java.compile.de.itemis.mps.editor.layout, java.compile.de.itemis.mps.editor.layout#4452438700753615293, java.compile.de.slisson.mps.conditionalEditor, java.compile.de.slisson.mps.conditionalEditor#2877762237605071651, java.compile.de.slisson.mps.conditionalEditor.hints, java.compile.de.slisson.mps.conditionalEditor.hints#2669483033691476665, java.compile.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.editor.multiline#5792856961266375224, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.reflection.runtime, java.compile.java.modules.cycle.1, java.compile.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.sandbox, java.compile.org.apache.commons, java.compile.de.slisson.mps.reflection, java.compile.de.slisson.mps.reflection#5820306262934157507, java.compile.de.slisson.mps.richtext, java.compile.de.slisson.mps.richtext#1212807527450963095, java.compile.de.slisson.mps.richtext.customcell, java.compile.de.slisson.mps.richtext.customcell#2490242408670609648, java.compile.de.slisson.mps.tables, java.compile.de.slisson.mps.tables#2318718871439220866, java.compile.de.slisson.mps.tables.demolang, java.compile.de.slisson.mps.tables.demolang#1397920687865224039, java.compile.com.mbeddr.mpsutil.blutil.rt, java.compile.java.modules.cycle.2, java.compile.com.mbeddr.mpsutil.breadcrumb.runtime, java.compile.com.mbeddr.mpsutil.common, java.compile.com.mbeddr.mpsutil.httpserver, java.compile.com.mbeddr.mpsutil.httpsupport.rt, java.compile.java.modules.cycle.3, java.compile.com.mbeddr.mpsutil.jung.pluginSolution, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage.runtime, java.compile.java.modules.cycle.4, java.compile.com.mbeddr.mpsutil.multilingual.common.runtime, java.compile.com.mbeddr.mpsutil.nodeaccess, java.compile.com.mbeddr.mpsutil.preferenceform.runtime, java.compile.com.mbeddr.mpsutil.serializer.xml, java.compile.com.mbeddr.mpsutil.spreferences.runtime, java.compile.com.mbeddr.mpsutil.blutil, java.compile.com.mbeddr.mpsutil.blutil#374287044672169667, java.compile.com.mbeddr.mpsutil.breadcrumb, java.compile.com.mbeddr.mpsutil.favourites, java.compile.com.mbeddr.mpsutil.favourites#1259468517902789719, java.compile.com.mbeddr.mpsutil.httpsupport, java.compile.com.mbeddr.mpsutil.httpsupport#5573986434797587358, java.compile.com.mbeddr.mpsutil.hyperlink, java.compile.com.mbeddr.mpsutil.hyperlink#144279664517180343, java.compile.com.mbeddr.mpsutil.iconchar, java.compile.com.mbeddr.mpsutil.iconchar#8866176685648195955, java.compile.com.mbeddr.mpsutil.intentions, java.compile.com.mbeddr.mpsutil.intentions#5846558918537372607, java.compile.com.mbeddr.mpsutil.jung, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage#568377005202250215, java.compile.com.mbeddr.mpsutil.multilingual.common, java.compile.com.mbeddr.mpsutil.multilingual.common#568377005202254018, java.compile.com.mbeddr.mpsutil.plantuml.node, java.compile.com.mbeddr.mpsutil.preferenceform, java.compile.com.mbeddr.mpsutil.preferenceform#145956936283286626, java.compile.com.mbeddr.mpsutil.propertydefault, java.compile.com.mbeddr.mpsutil.propertydefault#1550432487215671946, java.compile.com.mbeddr.mpsutil.richstring, java.compile.com.mbeddr.mpsutil.richstring#3354025285337048382, java.compile.com.mbeddr.mpsutil.spreferences, java.compile.com.mbeddr.mpsutil.spreferences#93055092064275899, java.compile.com.mbeddr.mpsutil.spreferences.context, java.compile.com.mbeddr.mpsutil.spreferences.context#877857976372701843, java.compile.com.mbeddr.mpsutil.suppresswarning, java.compile.com.mbeddr.mpsutil.suppresswarning#9116320848000878454, java.compile.java.modules.cycle.5, java.compile.com.mbeddr.mpsutil.projectview.runtime, java.compile.com.mbeddr.mpsutil.projectview.views, java.compile.com.mbeddr.mpsutil.projectview, java.compile.com.mbeddr.mpsutil.projectview#8411785813236466884, java.compile.de.itemis.mps.selection.runtime, java.compile.de.itemis.mps.selection.intentions, java.compile.de.itemis.mps.selection.intentions#6009478650970381565, java.compile.de.itemis.mps.tooltips.runtime, java.compile.de.itemis.mps.tooltips, java.compile.de.itemis.mps.tooltips#7561794385526429391, java.compile.com.mbeddr.mpsutil.targetchooser" />
+  <target name="compileJava" depends="java.compile.com.mbeddr.core.base, java.compile.com.mbeddr.core.base#8626086128958648025, java.compile.com.mbeddr.mpsutil.editingGuide.execution, java.compile.com.mbeddr.mpsutil.editingGuide.plugin, java.compile.com.mbeddr.mpsutil.editingGuide.runtime, java.compile.com.mbeddr.mpsutil.editingGuide, java.compile.com.mbeddr.mpsutil.editingGuide#3909459679554885946, java.compile.com.mbeddr.mpsutil.editingGuide.execution.lang, java.compile.com.mbeddr.mpsutil.editingGuide.execution.lang#6071536307005624287, java.compile.com.mbeddr.mpsutil.editor.querylist.runtime, java.compile.com.mbeddr.mpsutil.editor.querylist.sandbox, java.compile.com.mbeddr.mpsutil.editor.utils, java.compile.de.itemis.mps.editor.bool.runtime, java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.editor.layout.runtime, java.compile.de.slisson.mps.conditionalEditor.runtime, java.compile.de.slisson.mps.editor.celllayout, java.compile.de.slisson.mps.editor.multiline.runtime, java.compile.com.mbeddr.mpsutil.editor.querylist, java.compile.com.mbeddr.mpsutil.editor.querylist#6202678563380233173, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang, java.compile.com.mbeddr.mpsutil.editor.querylist.demolang#6202678563380233177, java.compile.de.itemis.mps.editor.bool, java.compile.de.itemis.mps.editor.bool#4900677560559654859, java.compile.de.itemis.mps.editor.celllayout, java.compile.de.itemis.mps.editor.celllayout#2728748097294103221, java.compile.de.itemis.mps.editor.celllayout.styles, java.compile.de.itemis.mps.editor.celllayout.styles#861697192441877541, java.compile.de.itemis.mps.editor.layout, java.compile.de.itemis.mps.editor.layout#4452438700753615293, java.compile.de.slisson.mps.conditionalEditor, java.compile.de.slisson.mps.conditionalEditor#2877762237605071651, java.compile.de.slisson.mps.conditionalEditor.hints, java.compile.de.slisson.mps.conditionalEditor.hints#2669483033691476665, java.compile.de.slisson.mps.editor.multiline, java.compile.de.slisson.mps.editor.multiline#5792856961266375224, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.reflection.runtime, java.compile.java.modules.cycle.1, java.compile.de.slisson.mps.tables.runtime, java.compile.de.slisson.mps.tables.sandbox, java.compile.org.apache.commons, java.compile.de.slisson.mps.reflection, java.compile.de.slisson.mps.reflection#5820306262934157507, java.compile.de.slisson.mps.richtext, java.compile.de.slisson.mps.richtext#1212807527450963095, java.compile.de.slisson.mps.richtext.customcell, java.compile.de.slisson.mps.richtext.customcell#2490242408670609648, java.compile.de.slisson.mps.tables, java.compile.de.slisson.mps.tables#2318718871439220866, java.compile.de.slisson.mps.tables.demolang, java.compile.de.slisson.mps.tables.demolang#1397920687865224039, java.compile.com.mbeddr.mpsutil.blutil.rt, java.compile.java.modules.cycle.2, java.compile.com.mbeddr.mpsutil.breadcrumb.runtime, java.compile.com.mbeddr.mpsutil.common, java.compile.com.mbeddr.mpsutil.httpserver, java.compile.com.mbeddr.mpsutil.httpsupport.rt, java.compile.java.modules.cycle.3, java.compile.com.mbeddr.mpsutil.jung.pluginSolution, java.compile.java.modules.cycle.4, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage.runtime, java.compile.com.mbeddr.mpsutil.multilingual.common.runtime, java.compile.com.mbeddr.mpsutil.nodeaccess, java.compile.com.mbeddr.mpsutil.preferenceform.runtime, java.compile.com.mbeddr.mpsutil.serializer.xml, java.compile.com.mbeddr.mpsutil.spreferences.runtime, java.compile.com.mbeddr.mpsutil.blutil, java.compile.com.mbeddr.mpsutil.blutil#374287044672169667, java.compile.com.mbeddr.mpsutil.breadcrumb, java.compile.com.mbeddr.mpsutil.favourites, java.compile.com.mbeddr.mpsutil.favourites#1259468517902789719, java.compile.com.mbeddr.mpsutil.httpsupport, java.compile.com.mbeddr.mpsutil.httpsupport#5573986434797587358, java.compile.com.mbeddr.mpsutil.hyperlink, java.compile.com.mbeddr.mpsutil.hyperlink#144279664517180343, java.compile.com.mbeddr.mpsutil.iconchar, java.compile.com.mbeddr.mpsutil.iconchar#8866176685648195955, java.compile.com.mbeddr.mpsutil.intentions, java.compile.com.mbeddr.mpsutil.intentions#5846558918537372607, java.compile.com.mbeddr.mpsutil.jung, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage, java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage#568377005202250215, java.compile.com.mbeddr.mpsutil.multilingual.common, java.compile.com.mbeddr.mpsutil.multilingual.common#568377005202254018, java.compile.com.mbeddr.mpsutil.plantuml.node, java.compile.com.mbeddr.mpsutil.preferenceform, java.compile.com.mbeddr.mpsutil.preferenceform#145956936283286626, java.compile.com.mbeddr.mpsutil.propertydefault, java.compile.com.mbeddr.mpsutil.propertydefault#1550432487215671946, java.compile.com.mbeddr.mpsutil.richstring, java.compile.com.mbeddr.mpsutil.richstring#3354025285337048382, java.compile.com.mbeddr.mpsutil.spreferences, java.compile.com.mbeddr.mpsutil.spreferences#93055092064275899, java.compile.com.mbeddr.mpsutil.spreferences.context, java.compile.com.mbeddr.mpsutil.spreferences.context#877857976372701843, java.compile.com.mbeddr.mpsutil.suppresswarning, java.compile.com.mbeddr.mpsutil.suppresswarning#9116320848000878454, java.compile.java.modules.cycle.5, java.compile.com.mbeddr.mpsutil.projectview.runtime, java.compile.com.mbeddr.mpsutil.projectview.views, java.compile.com.mbeddr.mpsutil.projectview, java.compile.com.mbeddr.mpsutil.projectview#8411785813236466884, java.compile.de.itemis.mps.selection.runtime, java.compile.de.itemis.mps.selection.intentions, java.compile.de.itemis.mps.selection.intentions#6009478650970381565, java.compile.de.itemis.mps.tooltips.runtime, java.compile.de.itemis.mps.tooltips, java.compile.de.itemis.mps.tooltips#7561794385526429391, java.compile.com.mbeddr.mpsutil.targetchooser" />
   
   <target name="processResources" />
   
@@ -3436,6 +3436,7 @@
       <chunk bootstrap="true">
         <module file="${basedir}/mbeddr/editingGuide/com.mbeddr.mpsutil.editingGuide.execution.lang/com.mbeddr.mpsutil.editingGuide.execution.lang.mpl" />
         <module file="${basedir}/mbeddr/editor/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" />
+        <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baselanguage.runtime/com.mbeddr.mpsutil.multilingual.baseLanguage.runtime.msd" />
         <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/com.mbeddr.mpsutil.multilingual.common.mpl" bootstrap="true" />
         <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common.runtime/com.mbeddr.mpsutil.multilingual.common.runtime.msd" />
         <module file="${basedir}/mbeddr/projectview/com.mbeddr.mpsutil.projectview.views/com.mbeddr.mpsutil.projectview.views.msd" />
@@ -3443,7 +3444,6 @@
       </chunk>
       <chunk>
         <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baseLanguage/com.mbeddr.mpsutil.multilingual.baseLanguage.mpl" />
-        <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baselanguage.runtime/com.mbeddr.mpsutil.multilingual.baseLanguage.runtime.msd" />
         <module file="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.preferenceform/com.mbeddr.mpsutil.preferenceform.mpl" />
         <module file="${basedir}/mbeddr/helper/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" />
       </chunk>
@@ -6220,7 +6220,64 @@
     </javac>
   </target>
   
-  <target name="java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage.runtime" depends="java.compile.com.mbeddr.mpsutil.multilingual.common.runtime">
+  <target name="java.compile.java.modules.cycle.4" depends="java.compile.org.apache.commons, java.compile.com.mbeddr.mpsutil.editor.utils, java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.tables.runtime, fetchDependencies">
+    <mkdir dir="${build.tmp}/java.modules.cycle.4" />
+    <javac destdir="${build.tmp}/java.modules.cycle.4" fork="true" encoding="utf8" nowarn="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baselanguage.runtime/source_gen" />
+        <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common.runtime/source_gen" />
+        <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-io-2.4/commons-io-2.4.jar" />
+        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
+        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-math3-3.3/commons-math3-3.3.jar" />
+        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
+        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-csv-1.0/commons-csv-1.0.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
+        <fileset dir="${artifacts.mps}/lib/ant/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <pathelement path="${build.tmp}/java/out/org.apache.commons" />
+        <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.editor.utils" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.runtime" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
+        <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
+        <pathelement path="${build.tmp}/java/out/de.slisson.mps.tables.runtime" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage.runtime" depends="java.compile.java.modules.cycle.4">
     <mkdir dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baselanguage.runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.baseLanguage.runtime" />
     <javac destdir="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.baseLanguage.runtime" fork="true" encoding="utf8" includeantruntime="false">
@@ -6243,7 +6300,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.common.runtime" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -6253,61 +6309,7 @@
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.java.modules.cycle.4" depends="java.compile.org.apache.commons, java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.tables.runtime, fetchDependencies">
-    <mkdir dir="${build.tmp}/java.modules.cycle.4" />
-    <javac destdir="${build.tmp}/java.modules.cycle.4" fork="true" encoding="utf8" nowarn="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common.runtime/source_gen" />
-        <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-io-2.4/commons-io-2.4.jar" />
-        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
-        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-math3-3.3/commons-math3-3.3.jar" />
-        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
-        <fileset file="${basedir}/mbeddr/helper/org.apache.commons/lib/commons-csv-1.0/commons-csv-1.0.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
-        <fileset dir="${artifacts.mps}/lib/ant/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <pathelement path="${build.tmp}/java/out/org.apache.commons" />
-        <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.runtime" />
-        <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
-        <pathelement path="${build.tmp}/java/out/de.slisson.mps.hacks.editor" />
-        <pathelement path="${build.tmp}/java/out/de.slisson.mps.tables.runtime" />
+        <pathelement path="${build.tmp}/java.modules.cycle.4" />
       </classpath>
     </javac>
   </target>
@@ -7335,7 +7337,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.com.mbeddr.mpsutil.multilingual.common" depends="java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.tables.runtime, java.compile.org.apache.commons, java.compile.java.modules.cycle.4, fetchDependencies">
+  <target name="java.compile.com.mbeddr.mpsutil.multilingual.common" depends="java.compile.com.mbeddr.mpsutil.editor.utils, java.compile.de.itemis.mps.editor.celllayout.runtime, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.hacks.editor, java.compile.de.slisson.mps.tables.runtime, java.compile.org.apache.commons, java.compile.java.modules.cycle.4, fetchDependencies">
     <mkdir dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.common" />
     <javac destdir="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.common" fork="true" encoding="utf8" includeantruntime="false">
@@ -7344,18 +7346,19 @@
         <path location="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.editor.utils" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.editor.celllayout.runtime" />
@@ -7481,7 +7484,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.com.mbeddr.mpsutil.preferenceform" depends="java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage, java.compile.com.mbeddr.mpsutil.multilingual.common, java.compile.com.mbeddr.mpsutil.multilingual.common.runtime, java.compile.com.mbeddr.mpsutil.preferenceform.runtime, java.compile.com.mbeddr.mpsutil.richstring, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.richtext, java.compile.org.apache.commons, fetchDependencies">
+  <target name="java.compile.com.mbeddr.mpsutil.preferenceform" depends="java.compile.com.mbeddr.mpsutil.multilingual.baseLanguage, java.compile.com.mbeddr.mpsutil.multilingual.common, java.compile.com.mbeddr.mpsutil.preferenceform.runtime, java.compile.com.mbeddr.mpsutil.richstring, java.compile.de.itemis.mps.selection.runtime, java.compile.de.slisson.mps.richtext, java.compile.org.apache.commons, fetchDependencies">
     <mkdir dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.preferenceform/source_gen" />
     <mkdir dir="${build.tmp}/java/out/com.mbeddr.mpsutil.preferenceform" />
     <javac destdir="${build.tmp}/java/out/com.mbeddr.mpsutil.preferenceform" fork="true" encoding="utf8" includeantruntime="false">
@@ -7504,12 +7507,11 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.baseLanguage" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.common" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.multilingual.common.runtime" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.preferenceform.runtime" />
         <pathelement path="${build.tmp}/java/out/com.mbeddr.mpsutil.richstring" />
         <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/de.itemis.mps.selection.runtime" />
         <pathelement path="${build.tmp}/java/out/de.slisson.mps.richtext" />
         <pathelement path="${build.tmp}/java/out/org.apache.commons" />
@@ -8698,7 +8700,6 @@
     <delete dir="${basedir}/mbeddr/helper/de.slisson.mps.tables/runtime/source_gen" />
     <delete dir="${basedir}/mbeddr/editingGuide/com.mbeddr.mpsutil.editingGuide.execution.lang/generator/source_gen" />
     <delete dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baseLanguage/source_gen" />
-    <delete dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.baselanguage.runtime/source_gen" />
     <delete dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.multilingual.common/generator/source_gen" />
     <delete dir="${basedir}/mbeddr/mpsutils/com.mbeddr.mpsutil.preferenceform/source_gen" />
     <delete dir="${basedir}/mbeddr/helper/de.slisson.mps.tables/sandbox/source_gen" />

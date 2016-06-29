@@ -33,7 +33,6 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848036997" name="jetbrains.mps.build.structure.BuildLayout_Node" flags="ng" index="39821Y" />
       <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
@@ -66,7 +65,9 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
-      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh" />
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
@@ -127,7 +128,9 @@
   <node concept="1l3spW" id="4RAsyl5JUdx">
     <property role="2DA0ip" value="../.." />
     <property role="TrG5h" value="peoplMbeddrPluginsBundle" />
-    <node concept="2igEWh" id="7OHu2yP15kM" role="1hWBAP" />
+    <node concept="2igEWh" id="7OHu2yP15kM" role="1hWBAP">
+      <property role="2igJW4" value="true" />
+    </node>
     <node concept="m$_wf" id="4RAsyl5JUem" role="3989C9">
       <property role="m$_wk" value="peoplMbeddrPluginsBundle" />
       <node concept="m$f5U" id="BVbWNiIKH9" role="m$_yh">
@@ -4362,7 +4365,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="6946tF2Z2dc" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="com.mbeddr.mpsutil.multilingual.common" />
         <property role="3LESm3" value="23f985f2-965f-4af1-aee8-a32677429514" />
         <property role="2GAjPV" value="false" />
@@ -4392,12 +4395,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6946tF2Z49B" role="3bR37C">
-          <node concept="3bR9La" id="6946tF2Z49C" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="6946tF2YwGY" resolve="com.mbeddr.mpsutil.multilingual.common.runtime" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="6946tF2Z49D" role="3bR37C">
           <node concept="3bR9La" id="6946tF2Z49E" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -4409,9 +4406,6 @@
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="4RAsyl5JUjF" resolve="org.apache.commons" />
           </node>
-        </node>
-        <node concept="1E0d5M" id="6946tF2Z49H" role="1E1XAP">
-          <ref role="1E0d5P" node="6946tF2YwGY" resolve="com.mbeddr.mpsutil.multilingual.common.runtime" />
         </node>
         <node concept="1yeLz9" id="6946tF2Z49I" role="1TViLv">
           <property role="TrG5h" value="com.mbeddr.mpsutil.multilingual.common#568377005202254018" />
@@ -4428,6 +4422,21 @@
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1A0FELEiTx" role="3bR37C">
+          <node concept="3bR9La" id="1A0FELEiTy" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6946tF2YyZZ" resolve="com.mbeddr.mpsutil.multilingual.baseLanguage.runtime" />
+          </node>
+        </node>
+        <node concept="1E0d5M" id="21E6ZpmXdaw" role="1E1XAP">
+          <ref role="1E0d5P" node="6946tF2YwGY" resolve="com.mbeddr.mpsutil.multilingual.common.runtime" />
+        </node>
+        <node concept="1SiIV0" id="21E6ZpmY4KU" role="3bR37C">
+          <node concept="3bR9La" id="21E6ZpmY4KV" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6946tF2YfTP" resolve="com.mbeddr.mpsutil.editor.utils" />
           </node>
         </node>
       </node>
@@ -6246,7 +6255,6 @@
                 </node>
               </node>
             </node>
-            <node concept="39821Y" id="7OHu2yP0sFF" role="39821P" />
           </node>
         </node>
         <node concept="3_J27D" id="5XBak60DmqT" role="Nbhlr">
