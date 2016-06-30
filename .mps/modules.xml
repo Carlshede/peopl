@@ -102,6 +102,7 @@
       <modulePath path="$PROJECT_DIR$/mbeddr/tooltips/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="mbeddr.tooltips" />
       <modulePath path="$PROJECT_DIR$/mbeddr/tooltips/de.itemis.mps.tooltips/de.itemis.mps.tooltips.mpl" folder="mbeddr.tooltips" />
       <modulePath path="$PROJECT_DIR$/mbeddr/tutorial/com.mbeddr.tutorial.startup/com.mbeddr.tutorial.startup.msd" folder="mbeddr.tutorial" />
+      <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editingGuide.plugin/com.mbeddr.mpsutil.editingGuide.plugin.msd" folder="mbeddr.editingGuide" />
       <modulePath path="$PROJECT_DIR$/solutions/peopl.tutorial/peopl.tutorial.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/test/de.htwsaar.ben/de.htwsaar.ben.msd" folder="" />
