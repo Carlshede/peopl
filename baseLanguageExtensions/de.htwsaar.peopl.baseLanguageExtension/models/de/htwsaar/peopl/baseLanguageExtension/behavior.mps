@@ -9424,22 +9424,9 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1_00ihD5H9v" role="3cqZAp">
-          <node concept="37vLTI" id="1_00ihD5H9w" role="3clFbG">
-            <node concept="2OqwBi" id="1_00ihD5H9x" role="37vLTJ">
-              <node concept="13iPFW" id="1_00ihD5H9y" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1_00ihD5H9z" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1_00ihD5H9$" role="37vLTx">
-              <node concept="37vLTw" id="1_00ihD5H9_" role="2Oq$k0">
-                <ref role="3cqZAo" node="5NSnWZogt2" resolve="classNode" />
-              </node>
-              <node concept="3TrcHB" id="1_00ihD5H9A" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:gOOYy9I" resolve="alias" />
-              </node>
-            </node>
+        <node concept="3SKdUt" id="1LIO2IKXYSb" role="3cqZAp">
+          <node concept="3SKdUq" id="1LIO2IKXYSd" role="3SKWNk">
+            <property role="3SKdUp" value="this.alias = classNode.alias" />
           </node>
         </node>
         <node concept="3clFbF" id="1_00ihD5H9B" role="3cqZAp">
