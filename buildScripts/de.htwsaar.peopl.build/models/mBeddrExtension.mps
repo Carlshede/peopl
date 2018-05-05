@@ -208,12 +208,6 @@
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1Gq8bgqepsS" role="3bR37C">
-          <node concept="3bR9La" id="1Gq8bgqepsT" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="f4pb:5AVGK5ysgJ" resolve="de.htwsaar.peopl.projectview.modular" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1Gq8bgqepsU" role="3bR37C">
           <node concept="3bR9La" id="1Gq8bgqepsV" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -512,7 +506,7 @@
                 <node concept="2Ry0Ak" id="2EkRjvM2V9i" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
                   <node concept="2Ry0Ak" id="tJvfxNIhbg" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2017.2.app" />
+                    <property role="2Ry0Am" value="MPS 2017.3.app" />
                     <node concept="2Ry0Ak" id="tJvfxNIhiO" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>

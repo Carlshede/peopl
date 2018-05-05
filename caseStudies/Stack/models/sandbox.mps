@@ -242,8 +242,7 @@
     <property role="TrG5h" value="Stack" />
     <node concept="3GWJoq" id="1yv_rrpLv1H" role="3k6NAI">
       <property role="TrG5h" value="Stack" />
-      <node concept="2tJIrI" id="1yv_rrpLv2g" role="jymVt" />
-      <node concept="2tJIrI" id="yOFyOwevFb" role="jymVt" />
+      <node concept="2tJIrI" id="3W7bOxBLr1L" role="jymVt" />
       <node concept="312cEg" id="1yv_rrpLD77" role="jymVt">
         <property role="34CwA1" value="false" />
         <property role="eg7rD" value="false" />
@@ -374,6 +373,8 @@
                   <property role="3SKdUp" value="" />
                 </node>
               </node>
+              <node concept="3clFbH" id="3W7bOxBLpGq" role="3cqZAp" />
+              <node concept="3clFbH" id="3W7bOxBLq1s" role="3cqZAp" />
             </node>
             <node concept="1V74GB" id="1mtEYS5g6I3" role="lGtFl">
               <property role="32Xqk$" value="chosenModule" />
@@ -384,6 +385,7 @@
               <ref role="25GeQm" node="1mtEYS5g6I7" resolve="FeatureGroupReference_1557590084918733703" />
             </node>
           </node>
+          <node concept="3clFbH" id="3W7bOxBLq1B" role="3cqZAp" />
         </node>
         <node concept="3Tm1VV" id="5pEbcVRWL3D" role="1B3o_S" />
         <node concept="37vLTG" id="5pEbcVRWLnb" role="3clF46">
