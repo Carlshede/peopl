@@ -678,7 +678,7 @@
                 <node concept="2Ry0Ak" id="2EkRjvM2V9i" role="2Ry0An">
                   <property role="2Ry0Am" value="Applications" />
                   <node concept="2Ry0Ak" id="tJvfxNIhbg" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2017.3.app" />
+                    <property role="2Ry0Am" value="MPS 2018.1.app" />
                     <node concept="2Ry0Ak" id="tJvfxNIhiO" role="2Ry0An">
                       <property role="2Ry0Am" value="Contents" />
                     </node>

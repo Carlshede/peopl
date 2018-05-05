@@ -8549,7 +8549,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1GfZLHulfsa" role="2OqNvi">
-              <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.addModelImport(org.jetbrains.mps.openapi.model.SModelReference,boolean):void" resolve="addModelImport" />
+              <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.addModelImport(org.jetbrains.mps.openapi.model.SModelReference):void" resolve="addModelImport" />
               <node concept="2OqwBi" id="1C4KoOqbck3" role="37wK5m">
                 <node concept="liA8E" id="1C4KoOqbcna" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SModel.getReference():org.jetbrains.mps.openapi.model.SModelReference" resolve="getReference" />
@@ -8564,9 +8564,6 @@
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="3clFbT" id="1GfZLHulOkB" role="37wK5m">
-                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>

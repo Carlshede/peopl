@@ -4,8 +4,8 @@
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet" version="0" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
@@ -2026,10 +2026,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="6Y_O1XtnX9y" role="2OqNvi">
-                                      <ref role="37wK5l" to="fn29:6gLh390ElAV" resolve="resources" />
-                                      <node concept="3clFbT" id="6Y_O1XtnX9z" role="37wK5m">
-                                        <property role="3clFbU" value="false" />
-                                      </node>
+                                      <ref role="37wK5l" to="fn29:713BH0S$TAn" resolve="resources" />
                                     </node>
                                   </node>
                                   <node concept="37vLTw" id="6Y_O1XtnX9$" role="37wK5m">
@@ -10395,10 +10392,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="9D0Ba05uTB" role="2OqNvi">
-                            <ref role="37wK5l" to="fn29:6gLh390ElAV" resolve="resources" />
-                            <node concept="3clFbT" id="9D0Ba05uTC" role="37wK5m">
-                              <property role="3clFbU" value="false" />
-                            </node>
+                            <ref role="37wK5l" to="fn29:713BH0S$TAn" resolve="resources" />
                           </node>
                         </node>
                         <node concept="37vLTw" id="3GM_nagTzyl" role="37wK5m">
